@@ -1,6 +1,6 @@
 # Flowrensic for DBOS CLI
 
-Flowrensic runs beside your durable workflow engine and finds problems in your workflows. Flowrensic for DBOS reads the system database of DBOS and finds failed, stuck, dead letter and timed out workflows, queues that fall behind, and steps that keep retrying. The server lists them on its findings page, with filters.
+Flowrensic runs beside your durable workflow engine and finds problems in your workflows. Flowrensic for DBOS reads the system database of DBOS and finds 11 problem types: the ones DBOS's own dashboard, Conductor, shows, such as failed workflows, slow queues and apps that stop responding, and more beyond it, such as stuck workflows, steps that keep retrying and recovery loops. The server lists them on its findings page. Each finding has a page with how to fix it, links to its workflows, queue and executors, and can be silenced.
 
 This is the command line client, dbos-flowrensic, for your CI. It asks a Flowrensic for DBOS server how it is.
 
